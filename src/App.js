@@ -41,7 +41,7 @@ class App extends Component {
 
           <div className="textbar">
             <h1>{article.title}<br /></h1>
-            <h3 >{article.author}<br /></h3>
+            <h3 >{article.author}</h3>
             <h2 >{article.description}<br /></h2>
           </div>
         </div>

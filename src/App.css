@@ -4,30 +4,15 @@
   font-family: 'Quicksand', sans-serif;
 }
 
-.App {
-  text-align: center;
+h1 {
+  font-size: 2.9vmax;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+h2 {
+  font-size: 1.5vmax;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+h3 {
+  font-size: 1.0vmax;
 }
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
 
 .newsdiv {
   display: flex;
