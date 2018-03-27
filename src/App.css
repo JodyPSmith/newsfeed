@@ -1,3 +1,9 @@
+.body, html {
+  height: 100%;
+  overflow: hidden;
+  
+}
+
 .App {
   text-align: center;
 }
@@ -22,7 +28,38 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+
+.newsdiv {
+  display: flex;
+  align-content: center;
+  
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.newsdiv img {
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  
+  width: 100vw;
+  height: 100vh;
+}
+
+.textbar{
+  position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(74,54,54,80%);
+    padding: 20, 0, 20, 0;
+    
+    width: 100%;
+    
 }
