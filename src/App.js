@@ -17,7 +17,7 @@ class App extends Component {
     var url =
       "https://newsapi.org/v2/top-headlines?" +
       "country=us&" +
-      "apiKey=d73e128c49f243bb95b26e9a8dcd496b";
+      "apiKey=YOUR_API_KEY";
 
     fetch(url)
       .then(res => res.json())
