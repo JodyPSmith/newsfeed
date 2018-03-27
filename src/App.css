@@ -1,7 +1,7 @@
 .body, html {
   height: 100%;
   overflow: hidden;
-  
+  font-family: 'Quicksand', sans-serif;
 }
 
 .App {
@@ -57,9 +57,10 @@
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(74,54,54,80%);
-    padding: 20, 0, 20, 0;
+    background-color: rgba(74,54,54,70%);
     
-    width: 100%;
-    
+    color: #F8F8F8;
+    width: 95vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
 }

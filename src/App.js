@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import apikey from './apikey'
 
 class App extends Component {
   constructor() {
@@ -16,8 +17,7 @@ class App extends Component {
   getNews = () => {
     var url =
       "https://newsapi.org/v2/top-headlines?" +
-      "country=us&" +
-      "apiKey=d73e128c49f243bb95b26e9a8dcd496b";
+      "country=us&apiKey=" + apikey;
 
     fetch(url)
       .then(res => res.json())
@@ -40,9 +40,9 @@ class App extends Component {
           </div>
 
           <div className="textbar">
-            <a >{article.title}<br /></a>
-            <a >{article.author}<br /></a>
-            <a >{article.description}<br /></a>
+            <h1>{article.title}<br /></h1>
+            <h3 >{article.author}<br /></h3>
+            <h2 >{article.description}<br /></h2>
           </div>
         </div>
       )
