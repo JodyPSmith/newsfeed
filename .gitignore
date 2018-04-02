@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-src/apikey.jsx
+src/components/apikey.jsx
 # testing
 /coverage
 
