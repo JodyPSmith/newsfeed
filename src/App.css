@@ -28,6 +28,13 @@ h3 {
   height: 100vh;
   
 }
+.logo {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  max-width: 10vw;
+  max-height: 5vh;
+}
 
 .container {
   position: relative;
@@ -42,8 +49,8 @@ h3 {
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(74,54,54,70%);
-    
+    background: rgb(74,54,54);
+    background: rgba(74,54,54,0.7);
     color: #F8F8F8;
     width: 95vw;
     padding-right: 5vw;

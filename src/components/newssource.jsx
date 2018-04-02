@@ -16,7 +16,7 @@ class NewsSource extends Component {
     getNews = () => {
         var url =
             "https://newsapi.org/v2/top-headlines?" +
-            "country=us&category=entertainment&apiKey=" + newsapikey;
+            "country=us&category=technology&apiKey=" + newsapikey;
 
         fetch(url)
             .then(res => res.json())
